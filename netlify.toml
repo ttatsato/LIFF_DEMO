@@ -1,5 +1,5 @@
 [build]
-  command = "cd src/nuxtjs && yarn install && yarn build"
+  command = "cd src/nuxtjs && yarn install && yarn build && yarn start"
   publish = "src/nuxtjs/.nuxt/dist"
 
 [template.environment]
